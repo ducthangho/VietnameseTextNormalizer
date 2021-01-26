@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Convert Services)", "..\Projects\Convert Services", "{75C5E93D-DFA8-142F-C6D3-0555FBC5A53D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(Projects)", "..\Projects", "{4E92736C-CDAA-14F4-7027-B421ECE7DC10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(VietnameseTextNormalizer)", "..\Projects\Convert Services\docx-template-to-pdf-microservice-js\VietnameseTextNormalizer", "{6E9EE27B-2DF1-4A5A-27D0-951A33F0E6C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(docx-template-to-pdf-microservice-js)", "..\Projects\Convert Services\docx-template-to-pdf-microservice-js", "{99D402CE-3DE0-793E-586A-0BD1516E1EA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node-addon-api)", "..\Projects\Convert Services\docx-template-to-pdf-microservice-js\VietnameseTextNormalizer\node_modules\node-addon-api", "{6FEF5539-CE03-04C3-9BEE-DA787A1BD2AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(node_modules)", "..\Projects\Convert Services\docx-template-to-pdf-microservice-js\VietnameseTextNormalizer\node_modules", "{DD343E60-5991-CCE7-8F1E-12C6F5F71AEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "(src)", "..\Projects\Convert Services\docx-template-to-pdf-microservice-js\VietnameseTextNormalizer\node_modules\node-addon-api\src", "{2E9338A3-DFC3-5AD4-8DD7-C43DE67CF212}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "nothing", "..\node_modules\node-addon-api\src\nothing.vcxproj", "{9BFC29E6-EDC8-3671-55C8-A3FA6BB526AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vietnamesetextnormalizer", "vietnamesetextnormalizer.vcxproj", "{D6D1042A-BCAA-9D31-8BE4-10E57DE415DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9BFC29E6-EDC8-3671-55C8-A3FA6BB526AC} = {9BFC29E6-EDC8-3671-55C8-A3FA6BB526AC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BFC29E6-EDC8-3671-55C8-A3FA6BB526AC}.Debug|x64.ActiveCfg = Debug|x64
+		{9BFC29E6-EDC8-3671-55C8-A3FA6BB526AC}.Debug|x64.Build.0 = Debug|x64
+		{9BFC29E6-EDC8-3671-55C8-A3FA6BB526AC}.Release|x64.ActiveCfg = Release|x64
+		{9BFC29E6-EDC8-3671-55C8-A3FA6BB526AC}.Release|x64.Build.0 = Release|x64
+		{D6D1042A-BCAA-9D31-8BE4-10E57DE415DC}.Debug|x64.ActiveCfg = Debug|x64
+		{D6D1042A-BCAA-9D31-8BE4-10E57DE415DC}.Debug|x64.Build.0 = Debug|x64
+		{D6D1042A-BCAA-9D31-8BE4-10E57DE415DC}.Release|x64.ActiveCfg = Release|x64
+		{D6D1042A-BCAA-9D31-8BE4-10E57DE415DC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{99D402CE-3DE0-793E-586A-0BD1516E1EA0} = {75C5E93D-DFA8-142F-C6D3-0555FBC5A53D}
+		{75C5E93D-DFA8-142F-C6D3-0555FBC5A53D} = {4E92736C-CDAA-14F4-7027-B421ECE7DC10}
+		{DD343E60-5991-CCE7-8F1E-12C6F5F71AEC} = {6E9EE27B-2DF1-4A5A-27D0-951A33F0E6C0}
+		{6E9EE27B-2DF1-4A5A-27D0-951A33F0E6C0} = {99D402CE-3DE0-793E-586A-0BD1516E1EA0}
+		{2E9338A3-DFC3-5AD4-8DD7-C43DE67CF212} = {6FEF5539-CE03-04C3-9BEE-DA787A1BD2AA}
+		{6FEF5539-CE03-04C3-9BEE-DA787A1BD2AA} = {DD343E60-5991-CCE7-8F1E-12C6F5F71AEC}
+		{9BFC29E6-EDC8-3671-55C8-A3FA6BB526AC} = {2E9338A3-DFC3-5AD4-8DD7-C43DE67CF212}
+	EndGlobalSection
+EndGlobal
