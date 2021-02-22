@@ -1,0 +1,16 @@
+version: "3"
+
+volumes:
+  node_modules:
+services:   
+  vietnamese-nomrmalizer:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: 'vn-normalizer'    
+    container_name: 'vn-normalizer'    
+    build: .        
+    environment:
+      - NODE_ENV=production
+      - DOCKER_BUILDKIT=1
+  
